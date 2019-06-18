@@ -1,0 +1,72 @@
+<view class='bg text-center'>
+     <view class='padding-top'><view class='text-white padding-top-xl text-sm'>我的剩余积分   </view>
+     </view>
+     <view class='text-white text-xsl' bindtap='gohistory'>{{points}}</view>
+     <view class='text-white text-sm' bindtap='gohistory'>查看积分历史</view>
+</view>
+
+  <view class="flex solid-bottom">
+      <view class="basis-lg  flex">
+         <view class="basis-sm padding">
+             <image src="common/app.png"mode="widthFix"  style="width:130rpx" lazy-load='true'></image>
+         </view>
+         <view class="basis-lg">
+             <view class='padding-top padding-bottom'>
+                <view class='padding-top-sm text-lg text-black'>阅读有料</view>
+                 <view class='padding-top-xs text-sm text-grey'>每天最多可得50积分</view>
+             </view>
+         </view>
+     </view>
+      <view class="basis-sm">
+           <view class="padding">
+               <view class="padding">
+                   <button class="margin-left cu-btn line-orange button-hover" bindtap='openad'> 去浏览</button>
+               </view>
+           </view>
+      </view>
+    </view>
+
+<ad unit-id="{{BannerAd}}"></ad>
+      <view class="flex solid-bottom">
+      <view class="basis-lg  flex">
+         <view class="basis-sm padding">
+             <image src="common/app1.png"mode="widthFix"  style="width:130rpx" lazy-load='true'></image>
+         </view>
+         <view class="basis-lg">
+             <view class='padding-top padding-bottom'>
+                <view class='padding-top-sm text-lg text-black'>{{f_title}}</view>
+                 <view class='padding-top-xs text-sm text-grey'>每天最多可得1积分</view>
+             </view>
+         </view>
+     </view>
+      <view class="basis-sm">
+           <view class="padding">
+               <view class="padding">
+                   <button class="margin-left cu-btn line-green button-hover" bindtap='go1'> 去浏览</button>
+               </view>
+           </view>
+      </view>
+    </view>
+
+
+      <view class="flex solid-bottom">
+      <view class="basis-lg  flex">
+         <view class="basis-sm padding">
+             <image src="common/app2.png"mode="widthFix"  style="width:130rpx" lazy-load='true'></image>
+         </view>
+         <view class="basis-lg">
+             <view class='padding-top padding-bottom'>
+                <view class='padding-top-sm text-lg text-black'>{{s_title}}</view>
+                 <view class='padding-top-xs text-sm text-grey'>每天最多可得1积分</view>
+             </view>
+         </view>
+     </view>
+      <view class="basis-sm">
+           <view class="padding">
+               <view class="padding">
+                   <button class="margin-left cu-btn line-pink button-hover" bindtap='go2'> 去浏览</button>
+               </view>
+           </view>
+      </view>
+    </view>
+

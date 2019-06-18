@@ -1,0 +1,10 @@
+@import "common/main.wxss";
+
+page{
+  background-color: white;
+}
+.bg{
+background:linear-gradient(to bottom right, #ff567a ,#ff2679);
+height:360rpx;
+width: 100%
+}

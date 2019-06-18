@@ -1,0 +1,27 @@
+
+
+<view class='shadow-blur' style='background:linear-gradient(to bottom right, #ff567a ,#ff2679);'>
+    <view class="flex">
+      <view class="flex-sub  padding-top-sm  padding-bottom-sm margin-top-xs margin-bottom-xs"> 
+          <view class="userinfo">
+               <view class="userinfo-avatar"><open-data  type="userAvatarUrl"></open-data></view>
+          </view>
+      </view>
+      <view class="flex-twice margin-top-xl text-white"><open-data type="userNickName"></open-data>
+                 <view class="margin-top">剩余积分 {{points}} 个</view>
+      </view>
+   </view>
+</view>
+<view class='box'>
+<view>
+<view  wx:for="{{list}}">
+  <view class="flex bg-white padding-sm solid-bottom">
+    <view class="basis-xl">
+       <view class='text-black margin-bottom-xs text-sub'>{{item.content}}</view>
+       <view class='text-sm text-grey'>{{item.date}}</view>
+    </view>
+     <view class="basis-xs text-right margin-xs text-orange">{{item.points}}</view>
+   </view>
+ </view>
+</view>
+</view>

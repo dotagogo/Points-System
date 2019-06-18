@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/points/points",
+    "pages/points/points_history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "积分系统",
+    "navigationBarTextStyle": "black"
+  },
+      "tabBar": {
+        "selectedColor": "#d81e06",
+        "list": [
+          {
+            "pagePath": "pages/index/index",
+            "iconPath": "images/tabbar/shouye.png",
+            "selectedIconPath": "images/tabbar/shouye_on.png",
+            "text": "首页"
+          },
+          {
+            "pagePath": "pages/points/points",
+            "iconPath": "images/tabbar/jifen.png",
+            "selectedIconPath": "images/tabbar/jifen_on.png",
+            "text": "积分"
+          }
+        ]
+      },
+  "sitemapLocation": "sitemap.json",
+      "navigateToMiniProgramAppIdList": [
+        "wx980ff4007f3d404d",
+        "wxe1df9995523de465",
+        "wxc8a1acda8d2da0d0",
+        "wxd7235e2a59c9005b"
+      ]
+}
