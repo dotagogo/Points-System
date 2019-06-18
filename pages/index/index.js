@@ -1,3 +1,7 @@
+/*
+Made By xuhuai
+使用说明地址：https://github.com/xuhuai66/Points-System
+*/
 var common = require("../points/common/common.js");
 Page({
   data: {

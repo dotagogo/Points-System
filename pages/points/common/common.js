@@ -1,3 +1,8 @@
+/*
+Made By xuhuai
+使用说明地址：https://github.com/xuhuai66/Points-System
+*/
+
 var config = {
   appData: {
     f_title: "苹果限免应用",//第一个跳转小程序的名字
